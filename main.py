@@ -22,4 +22,4 @@ if __name__ == "__main__":
     for i in range(a, b + 1):
         print(f"Downloading img{i}.jpg...")
         get_image(i)
-        time.sleep(0.7)
+        time.sleep(1)
